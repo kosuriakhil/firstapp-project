@@ -1,0 +1,40 @@
+/* Full screen background */
+.login-bg {
+  min-height: 100vh;
+  background: url("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Glass card */
+.login-card {
+  width: 100%;
+  max-width: 420px;
+  padding: 2.5rem;
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* Inputs */
+.custom-input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0;
+  color: #fff;
+}
+
+.custom-input::placeholder {
+  color: #ddd;
+}
+
+.custom-input:focus {
+  background: transparent;
+  color: #fff;
+  box-shadow: none;
+  border-bottom-color: #fff;
+}
