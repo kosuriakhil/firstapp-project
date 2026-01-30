@@ -22,8 +22,12 @@ console.log(import.meta.env.VITE_API_BACKEND)
       .then((res)=>{
         console.log(res.data)
         if(res.data.status===201){
+          alert("register successful")
           navigate("/login")
         }
+      })
+      .catch((err)=>{
+        alert("got the error while registering open console and check the response data")
       })
 
     setName("")
