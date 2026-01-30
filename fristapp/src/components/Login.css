@@ -1,7 +1,7 @@
 /* Full screen background */
 .login-bg {
   min-height: 100vh;
-  background: url("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg") center/cover no-repeat;
+  background: url("https://static.vecteezy.com/system/resources/thumbnails/031/419/821/small_2x/empty-table-product-display-mockup-with-garden-background-ai-generated-photo.jpg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -13,28 +13,28 @@
   max-width: 420px;
   padding: 2.5rem;
   border-radius: 12px;
-  background: rgba(0, 0, 0, 0.45);
+  background: rgba(0, 0, 0, 0.585);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 20px 40px rgb(0, 0, 0);
 }
 
 /* Inputs */
 .custom-input {
   background: transparent;
   border: none;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #000;
   border-radius: 0;
-  color: #fff;
+  color: #ffffff;
 }
 
 .custom-input::placeholder {
-  color: #ddd;
+  color: #dddddd;
 }
 
 .custom-input:focus {
   background: transparent;
-  color: #fff;
+  color: #ffffff;
   box-shadow: none;
-  border-bottom-color: #fff;
+  border-bottom-color: #ffffff;
 }
