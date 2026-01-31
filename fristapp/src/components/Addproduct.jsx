@@ -14,7 +14,7 @@ export default function AddProduct() {
         const newProduct={
             name,price,description,category,stock:Number(stock),role
         }
-        axios.post("http://localhost:4000/api/product/add",newProduct)
+        axios.post("https://firstapp-project-1.onrender.com/api/product/add",newProduct)
           .then((res)=>{
             console.log(res)
             if(res.status==200){

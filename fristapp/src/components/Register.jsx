@@ -18,7 +18,7 @@ export default function Register() {
     console.log(import.meta.env)
 console.log(import.meta.env.VITE_API_BACKEND)
 
-    axios.post("http://localhost:4000/api/create-user",newUser)
+    axios.post("https://firstapp-project-1.onrender.com/api/create-user",newUser)
       .then((res)=>{
         console.log(res.data)
         if(res.data.status===201){
