@@ -22,3 +22,5 @@ const Product= mongoose.Schema({
 })
 
 module.exports=mongoose.model("Product",Product)
+
+//cod
